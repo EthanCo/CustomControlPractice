@@ -1,4 +1,4 @@
-package com.ethanco.loadingwidget.indicator;
+package com.ethanco.loadingwidget.test;
 
 import android.animation.Animator;
 import android.animation.ValueAnimator;
@@ -14,24 +14,24 @@ import java.util.ArrayList;
 /**
  * Created by EthanCo on 2016/7/20.
  */
-public class Test1 extends View {
+public class TestBallPulse2 extends View {
     private static final int DEFAULT_SIZE = 50;
     private Paint mPaint;
     public static final float SCALE = 1.0f;
     private float[] scaleFloats = new float[]{SCALE, SCALE, SCALE};
     private ArrayList<Animator> animations;
 
-    public Test1(Context context) {
+    public TestBallPulse2(Context context) {
         super(context);
         init(null, 0);
     }
 
-    public Test1(Context context, AttributeSet attrs) {
+    public TestBallPulse2(Context context, AttributeSet attrs) {
         super(context, attrs);
         init(attrs, 0);
     }
 
-    public Test1(Context context, AttributeSet attrs, int defStyleAttr) {
+    public TestBallPulse2(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         init(attrs, defStyleAttr);
     }
@@ -94,13 +94,14 @@ public class Test1 extends View {
         }
     }
 
+    float x = 0;
+
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
 
         float circleSpacing = 4; //圆之间的距离
         float radius = (Math.min(getWidth(), getHeight()) - circleSpacing * 2) / 6;
-        float x = getWidth() / 2 - (radius * 2 + circleSpacing);
         float y = getHeight() / 2;
 
         for (int i = 0; i < 3; i++) {
@@ -112,6 +113,7 @@ public class Test1 extends View {
             canvas.drawCircle(0, 0, radius, mPaint);
             canvas.restore();
         }
+        x += 1*scaleFloats[0];
     }
 
     private int dp2px(int dpValue) {

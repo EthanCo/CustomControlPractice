@@ -1,4 +1,4 @@
-package com.ethanco.loadingwidget.indicator;
+package com.ethanco.loadingwidget.test;
 
 import android.animation.Animator;
 import android.animation.ValueAnimator;
@@ -14,24 +14,24 @@ import java.util.ArrayList;
 /**
  * Created by EthanCo on 2016/7/20.
  */
-public class Test extends View {
+public class TestBallPulse extends View {
     private static final int DEFAULT_SIZE = 50;
     private Paint mPaint;
     public static final float SCALE = 1.0f;
     private float[] scaleFloats = new float[]{SCALE, SCALE, SCALE};
     private ArrayList<Animator> animations;
 
-    public Test(Context context) {
+    public TestBallPulse(Context context) {
         super(context);
         init(null, 0);
     }
 
-    public Test(Context context, AttributeSet attrs) {
+    public TestBallPulse(Context context, AttributeSet attrs) {
         super(context, attrs);
         init(attrs, 0);
     }
 
-    public Test(Context context, AttributeSet attrs, int defStyleAttr) {
+    public TestBallPulse(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         init(attrs, defStyleAttr);
     }
