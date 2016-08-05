@@ -1,58 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context="com.ethanco.myavloadingindicator.MainActivity">
+    android:layout_height="match_parent">
 
-    <com.ethanco.loadingwidget.AVLoadingIndicatorView
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        app:indicator="BallPulse" />
-
-    <com.ethanco.loadingwidget.AVLoadingIndicatorView
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        app:indicator="BallClipRotate" />
-
-    <com.ethanco.loadingwidget.AVLoadingIndicatorView
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        app:indicator="SquareSpin" />
-
-    <com.ethanco.loadingwidget.AVLoadingIndicatorView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="10dp"
-        app:indicator="BallPulseRise" />
-
-    <com.ethanco.loadingwidget.AVLoadingIndicatorView
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginLeft="10dp"
-        app:indicator="BallRotate" />
-
-    <com.ethanco.loadingwidget.AVLoadingIndicatorView
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginLeft="10dp"
-        app:indicator="BallScaleMultiple" />
-
-    <com.ethanco.loadingwidget.test.TestBallPulse
-        android:layout_width="60dp"
-        android:layout_height="60dp" />
-
-    <com.ethanco.loadingwidget.test.TestBallPulse1
-        android:layout_width="60dp"
-        android:layout_height="60dp" />
-
-    <com.ethanco.loadingwidget.test.TestBallPulse2
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="60dp" />
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.ethanco.myavloadingindicator.MainActivity">
 
-    <com.ethanco.loadingwidget.test.TestBallPulse3
-        android:layout_width="60dp"
-        android:layout_height="60dp" />
-</LinearLayout>
+        <com.ethanco.loadingwidget.AVLoadingIndicatorView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:indicator="BallPulse" />
+
+        <com.ethanco.loadingwidget.AVLoadingIndicatorView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:indicator="BallClipRotate" />
+
+        <com.ethanco.loadingwidget.AVLoadingIndicatorView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:indicator="SquareSpin" />
+
+        <com.ethanco.loadingwidget.AVLoadingIndicatorView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            app:indicator="BallPulseRise" />
+
+        <com.ethanco.loadingwidget.AVLoadingIndicatorView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            app:indicator="BallRotate" />
+
+        <com.ethanco.loadingwidget.AVLoadingIndicatorView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            app:indicator="BallScaleMultiple" />
+
+        <com.ethanco.loadingwidget.AVLoadingIndicatorView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            app:indicator="LineScale" />
+
+        <com.ethanco.loadingwidget.test.TestBallPulse
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+
+        <com.ethanco.loadingwidget.test.TestBallPulse1
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+
+        <com.ethanco.loadingwidget.test.TestBallPulse2
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <com.ethanco.loadingwidget.test.TestBallPulse3
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+
+    </LinearLayout>
+</ScrollView>
