@@ -13,6 +13,7 @@ import com.ethanco.loadingwidget.indicator.BallPulseIndicator;
 import com.ethanco.loadingwidget.indicator.BallPulseRiseIndicator;
 import com.ethanco.loadingwidget.indicator.BallRotateIndicator;
 import com.ethanco.loadingwidget.indicator.BallScaleMultipleIndicator;
+import com.ethanco.loadingwidget.indicator.BallSpinFadeLoaderIndicator;
 import com.ethanco.loadingwidget.indicator.BaseIndicatorController;
 import com.ethanco.loadingwidget.indicator.LineScaleIndicator;
 import com.ethanco.loadingwidget.indicator.SquareSpinIndicator;
@@ -108,6 +109,10 @@ public class AVLoadingIndicatorView extends View {
                 break;
             case LineScale:
                 mIndicatorController = new LineScaleIndicator();
+                break;
+            case BallSpinFadeLoader:
+                mIndicatorController = new BallSpinFadeLoaderIndicator();
+                break;
             default:
         }
 
