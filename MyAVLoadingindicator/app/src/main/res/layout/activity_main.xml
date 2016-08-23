@@ -56,6 +56,12 @@
             android:layout_marginLeft="10dp"
             app:indicator="BallSpinFadeLoader" />
 
+        <com.ethanco.loadingwidget.AVLoadingIndicatorView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            app:indicator="Pacman" />
+
         <com.ethanco.loadingwidget.test.TestBallPulse
             android:layout_width="60dp"
             android:layout_height="60dp" />
