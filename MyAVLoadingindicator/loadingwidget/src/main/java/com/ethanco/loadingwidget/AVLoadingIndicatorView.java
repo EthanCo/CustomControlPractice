@@ -15,6 +15,7 @@ import com.ethanco.loadingwidget.indicator.BallRotateIndicator;
 import com.ethanco.loadingwidget.indicator.BallScaleMultipleIndicator;
 import com.ethanco.loadingwidget.indicator.BallSpinFadeLoaderIndicator;
 import com.ethanco.loadingwidget.indicator.BaseIndicatorController;
+import com.ethanco.loadingwidget.indicator.CubeTransitionIndicator;
 import com.ethanco.loadingwidget.indicator.LineScaleIndicator;
 import com.ethanco.loadingwidget.indicator.PacmanIndicator;
 import com.ethanco.loadingwidget.indicator.SquareSpinIndicator;
@@ -117,6 +118,8 @@ public class AVLoadingIndicatorView extends View {
             case Pacman:
                 mIndicatorController = new PacmanIndicator();
                 break;
+            case CubeTransition:
+                mIndicatorController = new CubeTransitionIndicator();
             default:
         }
 
