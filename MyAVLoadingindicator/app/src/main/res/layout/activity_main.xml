@@ -68,6 +68,10 @@
             android:layout_marginLeft="10dp"
             app:indicator="CubeTransition" />
 
+        <com.ethanco.buttonviewlib.ButtonView
+            android:layout_width="240dp"
+            android:layout_height="50dp" />
+
         <com.ethanco.loadingwidget.test.TestBallPulse
             android:layout_width="60dp"
             android:layout_height="60dp" />
