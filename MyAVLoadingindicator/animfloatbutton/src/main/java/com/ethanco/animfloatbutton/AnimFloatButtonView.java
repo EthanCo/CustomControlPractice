@@ -1,4 +1,4 @@
-package com.ethanco.fabbarlib;
+package com.ethanco.animfloatbutton;
 
 import android.animation.IntEvaluator;
 import android.animation.ValueAnimator;
@@ -11,7 +11,7 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.animation.AnticipateOvershootInterpolator;
 
-import com.ethanco.fabbarlib.utils.DisplayUtil;
+import com.ethanco.animfloatbutton.utils.DisplayUtil;
 
 public class AnimFloatButtonView extends View {
 

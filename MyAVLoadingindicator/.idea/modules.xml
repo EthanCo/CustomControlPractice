@@ -3,9 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MyAVLoadingindicator.iml" filepath="$PROJECT_DIR$/MyAVLoadingindicator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/animfloatbutton/fabbarlib.iml" filepath="$PROJECT_DIR$/animfloatbutton/fabbarlib.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/buttonviewlib/buttonviewlib.iml" filepath="$PROJECT_DIR$/buttonviewlib/buttonviewlib.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fabbarlib/fabbarlib.iml" filepath="$PROJECT_DIR$/fabbarlib/fabbarlib.iml" />
       <module fileurl="file://$PROJECT_DIR$/loadingwidget/loadingwidget.iml" filepath="$PROJECT_DIR$/loadingwidget/loadingwidget.iml" />
     </modules>
   </component>

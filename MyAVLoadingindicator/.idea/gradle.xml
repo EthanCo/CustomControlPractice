@@ -8,18 +8,18 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/animfloatbutton" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/buttonviewlib" />
-            <option value="$PROJECT_DIR$/fabbarlib" />
             <option value="$PROJECT_DIR$/loadingwidget" />
           </set>
         </option>
         <option name="myModules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/animfloatbutton" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/buttonviewlib" />
-            <option value="$PROJECT_DIR$/fabbarlib" />
             <option value="$PROJECT_DIR$/loadingwidget" />
           </set>
         </option>

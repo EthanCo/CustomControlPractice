@@ -1,4 +1,4 @@
-package com.ethanco.fabbarlib.utils;
+package com.ethanco.animfloatbutton.utils;
 
 import android.content.Context;
 
