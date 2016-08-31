@@ -1,1 +1,1 @@
-include ':app', ':loadingwidget', ':buttonviewlib'
+include ':app', ':loadingwidget', ':buttonviewlib', ':fabbarlib'
