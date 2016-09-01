@@ -5,8 +5,11 @@
     android:orientation="vertical">
 
 
-    <com.ethanco.myavloadingindicator.MyView
+    <!--<com.ethanco.myavloadingindicator.MyView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_margin="16dp" />-->
+    <com.ethanco.myavloadingindicator.BezierCurveView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_margin="16dp" />
+        android:layout_height="match_parent" />
 </LinearLayout>
