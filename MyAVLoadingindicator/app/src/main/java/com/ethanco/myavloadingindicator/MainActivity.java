@@ -10,6 +10,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         //setContentView(R.layout.activity_main);
         //setContentView(R.layout.activity_test);
-        setContentView(R.layout.layout_myscroll);
+        //setContentView(R.layout.layout_myscroll);
+        setContentView(R.layout.layout_cardviewpager);
     }
 }

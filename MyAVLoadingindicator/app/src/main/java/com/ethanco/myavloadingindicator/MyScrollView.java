@@ -3,6 +3,7 @@ package com.ethanco.myavloadingindicator;
 import android.content.Context;
 import android.util.AttributeSet;
 import android.util.DisplayMetrics;
+import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
@@ -84,6 +85,7 @@ public class MyScrollView extends ViewGroup {
                     mScroller.abortAnimation();
                 }
                 int dy = mLastY - y;
+                Log.i("Z-", "getScrollY():" + getScrollY() + " getHeight() - mScreenheight:" + (getHeight() - mScreenheight));
                 if (getScrollY() < 0) {
                     dy = 0;
                 }
